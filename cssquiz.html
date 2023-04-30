@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+   
+<body>
+    <div class="menu-bar">
+        <ul >
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="quiz.html">Quizler</a></li>
+            <li><a href="ders.html">Dersler</a></li>
+        </ul>
+        <ul class="kayıt">
+            <li><a href="login.html"> Giriş Yap</a></li>
+            <li><a href="register.html">Kayıt Ol</a></li>
+            <li><a href="profil.html">Profil</a></li>
+        </ul>
+    </div>
+      
+
+    <div class="liste">
+        <ul >
+          
+            <li><a href="htmlquiz.html">HTML Test</a></li>
+            <hr>
+            <li><a href="cssquiz.html">CSS Test</a></li>
+            <hr>
+            <li><a href="jsquiz.html"> JavaScript Test</a></li> 
+            <hr>
+        </ul>
+       </div>
+
+    <div class="soru">
+        <p class="sayac" id="countdown"></p>
+       <div class="question">Aşşağıdakilerden hangisi liste etiketidir ? <hr></div>
+       <div id="options">
+
+           <label class="options">ul/li
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="options">ol/a
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="options">i/p
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+        <label class="options">li/a
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+       </div>
+       <button type="submit" class="btn2">Sonraki Soru</button>
+    </div>
+
+   
+   
+<script src="sayac.js"></script>>
+</body>
+</html>
